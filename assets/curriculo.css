@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .section {
+    padding: 20px;
+    border-bottom: 1px solid #8a8080;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+  }
+  
+  h3 {
+    margin: 0 0 5px;
+    font-size: 18px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+  }
+  
+  li {
+    margin: 0 0 10px;
+  }
+  
+  p {
+    margin: 0 0 10px;
+  }
+  .perfil {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+  }
+  
+  .perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+  }
+  .whatsapp {
+    position: absolute;
+    top: 0;
+    right: 120px;
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-decoration: none;
+    width: 200px;
+    transition: transform 5.0s;
+    transform: translateY(-100%);
+    animation: slide-in 4.0s forwards;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Alinhando o ícone ao lado do texto */
+  .whatsapp a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Redimensionando o ícone */
+  .whatsapp img {
+    width: 24px;
+  }
+  
+  /* Flutuando o texto */
+  .whatsapp span {
+    margin-left: 5px;
+    flex: 1;
+  }
+  
+  .whatsapp:hover {
+    background: rgb(153, 148, 148);
+  }
+  
+  /* Botão responsivo */
+  @media screen and (max-width: 768px) {
+    .whatsapp {
+      width: 100%;
+    }
+    .whatsapp a {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* Animação de entrada do botão */
+  @keyframes slide-in {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  .habilidades{
+    max-width: 800px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px;
+
+      }
+      
+      section h2 {
+        margin-top: 0;
+      }
+      
+      section ul {
+        list-style: none;
+        padding-left: 0;
+      }
+      
+      section li {
+        margin-bottom: 10px;
+      }
+  
+      
+      
+  
+  
+  
+  
+  
